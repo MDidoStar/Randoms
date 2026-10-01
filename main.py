@@ -4,7 +4,7 @@ from random import randint as ri
 st.markdown("# Random Games!!")
 
 if st.button("Rock Paper Scissor Shoot!!", key="buttonshgooi"):
-    st.switch_page("rps.py")
+    st.switch_page("rps")
 
 st.divider()
 
