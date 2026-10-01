@@ -2,9 +2,7 @@ import streamlit as st
 from random import randint as ri
 
 st.markdown("# Random Games!!")
-st.Page("rps")
-if st.button("Rock Paper Scissor Shoot!!", key="buttonshgooi"):
-    st.switch_page("rps")
+
 
 st.divider()
 
