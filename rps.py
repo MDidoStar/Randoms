@@ -1,3 +1,5 @@
+import streamlit as st
+from random import randint as ri
 def rps_game():
     st.markdown("## Rock Paper Scissor Shoot!!!")
     mx = 0
