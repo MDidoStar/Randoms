@@ -89,7 +89,7 @@ elif player == "Scissor":
 
 mx += 1
 
-st.button("Try again With Same One", key=mx)
+st.button("Try again With Same One", key=f"button{mx + 100}")
 
 st.divider()
 
@@ -100,5 +100,5 @@ for x in range(num_dice):
         st.markdown(f"### Dice #{x + 1}:")
         dice_range = st.slider("Enter The Dice's Max:", step=2 , min_value=2, key=f"dice{x}")
         st.markdown(f"##### {ri(1, dice_range)}")
-        st.button("Roll Again", key=x)
+        st.button("Roll Again", key=f"button{x}")
 
