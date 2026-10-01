@@ -3,7 +3,7 @@ from random import randint as ri
 st.markdown("# Random Games!!")
 
 pages = [
-st.Page("app_pages/rps.py", title="Rock Paper Scissor", icon="✂️")
+st.Page("app_pages/rps.py", title="Rock Paper Scissor", icon="✂️"),
 st.Page("app_pages/dice.py", title="Dice Roller", icon="🎲")
 ]
 
