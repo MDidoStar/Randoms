@@ -1,5 +1,6 @@
 # Randoms
 ## Play Random Games 
 Such as:
-- Rock Paper Scissors
-- Dice Rolling
+- Rock Paper Scissors ✂️
+- Dice Rolling 🎲
+- Randomizer 🎰
