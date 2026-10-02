@@ -4,6 +4,7 @@ def dice_game():
         dice_ranges = []
         st.markdown("## Dice Roller 🎲")
         num_dice = st.number_input("How Many Dice do you want to roll?",step=1 , min_value=1)
+        st.divider()
         dice_ran = st.number_input("Set all dice maxes to",step=1 , min_value=1)
         for t in dice_ranges:
                 dice_ranges[t] = dice_ran
