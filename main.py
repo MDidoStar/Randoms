@@ -10,7 +10,7 @@ st.markdown("# Random Games!!")
 sb = st.sidebar
 pages=[
   "Rock Paper Scisssor ✂️",
-  "Dice Roller 🎲"
+  "Dice Roller 🎲",
   "Randomizer 🎰"
 ]
 sb.title("Navigation")
