@@ -1,7 +1,7 @@
 import streamlit as st
 from random import randint as ri
 def rps_game():
-    st.markdown("## Rock Paper Scissor Shoot!!!")
+    st.markdown("## Rock Paper Scissor Shoot ✂️!!!")
     mx = 0
     choices = ["Rock", "Paper", "Scissor"]
     player = st.selectbox("Choose One:", options=choices, accept_new_options=False)
