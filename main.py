@@ -4,7 +4,7 @@ from dice import dice_game
 from rps import rps_game
 from rand import rand_game
 from coin import coin_game
-st.page_config(title="Random Games", icon=🕹️)
+st.page_config(title="Random Games", icon='🕹️')
 st.markdown("# Random Games!!")
 # 🎲
 # ✂️
