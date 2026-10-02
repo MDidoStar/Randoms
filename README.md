@@ -4,3 +4,4 @@ Such as:
 - Rock Paper Scissors ✂️
 - Dice Rolling 🎲
 - Randomizer 🎰
+- Coin Fliper 🪙
