@@ -4,7 +4,20 @@ from dice import dice_game
 from rps import rps_game
 from rand import rand_game
 from coin import coin_game
-st.set_page_config(title="Random Games", icon='🕹️')
+
+
+st.set_page_config(
+    page_title="Random Games",
+    page_icon="🕹️",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    # menu_items={
+      #  'Get Help': 'https://extremelycoolapp.com',
+       # 'Report a bug': "https://extremelycoolapp.com",
+        #'About': "# This is a header\nAnd this is a custom about box!"
+    #}
+)
+
 st.markdown("# Random Games!!")
 # 🎲
 # ✂️
